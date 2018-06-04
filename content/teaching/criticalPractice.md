@@ -1,18 +1,21 @@
 ---
 weight: 1
-title: "Critical Practices"
-description: "I set a direction for the branding and identity of the product and crafted a functioning prototype ready for usability testing and development."
-nav_heading: "Cope Case Study"
+title: "Critical Practices | Mitchell Karchemsky"
+description: "A hands-on, studio design course where students work at the intersection
+of technological innovation and socially engaged art."
+nav_heading: "Critical Practices"
 thumbnail: "criticalP.jpg"
 case_short_title: "Critical Practices"
 case_title: "Critical Practices"
 case_subtitle: "Teaching Assistant"
-case_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
+case_description: "A hands-on, studio design course where students work at the intersection
+of technological innovation and socially engaged art."
 case_feature_img: "criticalP.jpg"
-case_summary: "Cope is an application that helps users track their mental health. Progress is measured through the use of a check-in system, calendar, medicine tracker and a summary dashboard. I created a minimum viable product for this application."
-team: ["Alexis Collado", "Carlos Arcenas", "Kat Uytiepo", "John Palomo"]
-roles: ["Branding and Identity", "User Interface Design", "Prototyping", "User Research"]
-methods: ["Sketching", "Mockups", "Guerilla Testing"]
+case_summary: "A hands-on, studio design course where students work at the intersection
+of technological innovation and socially engaged art. My role as teaching assistant allowed me to lead lectures, execute lesson plans, as well as guide students through one-on-one advising and consulting."
+team: ["Mitchell Karchemsky", "Jill Miller"]
+roles: ["Produce Lesson Plans", "Lead Lectures", "Provide Critique", "Assist in Grading"]
+methods: ["Sketching", "Prototyping", "3D CAD", "Digital Fabrication"]
 button_links:
     - link: "https://marvelapp.com/g4b64e/screen/14364499"
       img: "eyeball.svg"
@@ -31,157 +34,38 @@ date: 2017-10-15T03:29:08-07:00
 draft: false
 ---
 
-# The Challenge
+![](/teaching/cp/cp_r.jpg)
 
-![](//localhost:1313/cope/img/persona.png)
+# The Course
 
-A startup called Cope hired me to create a **minimum viable product**
-for their new idea — tracking mental health. It was the first project
-where I handled mobile app design, and I was very excited to learn the
-intricacies of the iOS platform.
+Critical Practices is taught under the [Berkeley Center of New Media.](http://bcnm.berkeley.edu/about) A hybrid course which focuses not only on the history and theory behind revolutionary installations and pieces, but invites the students to practice. As evident in the course title, a core tenant of the class is the critical view which must be taken by the students to embrace and offer cultural critique through the use of art.
 
-My clients John and Kat have done some preliminary interviews
-with psychologists and psychiatrists to get their side of the picture.
-They have established a user persona, a business model canvas, and
-several startup prep work for the product to take off. My job was to
-actually create the experience for their users and make sure they are
-represented in the design process.
+![](/teaching/cp/cp_j.jpg)
 
-The design I created was a result of self-started questions,
-validating assumptions, benchmarking,  and guerilla testing. I could
-have done some more usability studies early in the process, however.
+# A Critical Lens
 
-# Informal Competitive Analysis
+![](/teaching/cp/cp_jac.jpeg)
 
-We checked the App Store for similar applications, and we found
-out that there were no well-designed niche applications for handling
-mental health. We found another app called Cope as well, but their
-solution was more of a community-based social sharing platform. We saw
-this as an opportunity for our own version of Cope to solve a unique
-problem in the space.
+The focus of the course is to use art to help guide and shape social discourse. We encouraged the students to explore issue that affect them personally and use art as a way to bring people to more critically understand the issues surround the topic. For example, one group *The Bank of Hysteria* brought to light that almost exclusively is the word *Hysteria* is almost exclusively used only in descriptions of women. Coupled with the pressing issue of feminism, gender bias, and equality for women, the group wanted to create a space where those afflicted by the issue can verbalize their frustrations and discomfort without fear of recourse. They created a phone hotline and guerilla marketing campaign which gave an opportunity to those who felt that they could release the internal tension that they had kept hidden away. Their grievances are then printed out in a long receipt which others can read and connect with.
 
-![](//localhost:1313/cope/img/competition-cope.jpg)
+![](/teaching/cp/cp_m.jpg)
 
-Instead, we drew inspiration from applications that feature the
-design components we needed: menstrual cycle management apps that have
-good summaries and calendars, emotion tracking apps, medicine tracking apps.
+Another group was interested with the issue of self-encouragement and handling pressure. They distilled the problem that not enough self care is welcomed by individuals and as a result, will force emotions to be repressed. This starts a vicious cycle of self-neglect. To help address this, the students wanted to remove the stigma of consequences associated with these issues; specifically, crying. From a neurological standpoint, crying is an effective and necessary physiological function for our day to day lives; but from a social point of view, it is discouraged as it makes onlookers *uncomfortable*. To address this, the team created a tool which would actually encourage others to be comfortable to cry, and give tangible success from the release of the emotions. They created an organic sculpture which housed planters that would water themselves when a user would cry. This incredible message was driven even more firmly by the strong engineering talent to create the installation. 
 
-I used the concepts gained from these applications to study how
-they understood the mental models of their own users and hopefully
-replicate that kind of empathy whenever I create design decisions for Cope.
+![](/teaching/cp/cp_s.jpg)
 
-# Pivoting
+# Design
 
-We had feature changes and a lot of design decisions cancelled.
-Before, we had different modules for the design: forums, mental health
-doctor search, messaging.
+In the course, we focus on using physical design as a medium of discourse. Although an upper-division course, we encourage students from all disciplines and backgrounds to participate in the course. This means that there is a wide bevy of different skill levels when it comes to designing and making. I teach several installments of how to go from an idea to a final product. This series of lectures covers ideation, sketching, feasibility of design, modeling, and fabrication. 
 
-![](//localhost:1313/cope/img/discarded.jpg)
+![](/teaching/cp/sketch.png)
 
-We finalized the components of Cope that we wanted to build and
-we decided that we wanted to focus on tracking their progress for
-mental health. I had to drop some UI explorations I did for the first
-version of Cope we were building.
-            
-# Ideation and Feature Prioritization
+With this skillset, we find that the multidisciplinary talents of each student allow for interesting unique ideas from the crosspollination of subject matters.
 
-How do we exactly track one's progress in mental health? How do
-we make sure that the design is as usable as possible? What specific
-things should we track? How do we gauge someone's well-being in as few
-questions as possible? How do we design an efficient system for tracking
-and managing medication, and how does it tie up with the overall
-well-being score and progress of the user? How do we make a
-habit-forming product?
-            
-![](//localhost:1313/cope/img/sketch.png)
+![](/teaching/cp/cp_p.jpg) 
 
-There were so many questions we had to answer going into the
-project, but we decided on four key features that will serve as the
-solution to the mental health tracking problem: a self-report check-in
-system, medicine tracker, calendar overview, and summary dashboard. All
-modules work together to form a cohesive whole as a mental health
-tracking platform.
-            
-![](//localhost:1313/cope/img/summary.png)
+# Reflection
 
-# Assumptions and Considerations
+This course is incredibly rewarding to me from a personal standpoint. It allows for me to explore ideas with students and better understand the social issues they face and are victim to and help them better call to attention the issues which they face. I am incredibly proud that I was able to work so closely with these students and guide them to not only be better thinkers, but better makers, and shapers for social good.
 
-**The boundaries of self-reporting and analysis** 
-<br>We cannot really derive a diagnosis from the self-report component of
-the application because doctors are the only ones qualified to do it.
-There are so many factors that relate to mental health, and we realized
-as a team that the last thing that our app would want to do is to guess.
-The design decision is to tally user's progress based on his or her own
-input, and we would assign a total well-being score based on the
-aggregate of their answers.
-            
-![](//localhost:1313/cope/img/calendar.png)
-
-**Frequency of data collection**
-<br>How exactly do we know if the emotion that was self-reported persisted all throughout
-the day? As human beings, our emotions constantly change. We can't do a
-self-check just once a day because the data becomes inaccurate. We
-decided to have multiple check-ins as the solution. That changed the
-initial design I created for the calendar screen.
-            
-# User Flow Brainstorming
-
-![](//localhost:1313/cope/img/flow.png)
-
-**Designing the onboarding process**
-<br>The onboarding process starts with the user signing up or logging in and
-keying important data. The user then performs his or her first symptoms
-check-in. This is essential so there could be a baseline for his or her
-data in the calendar and summary screens. He or she is led to an empty
-state of the medicine tracker screen. From there, the user could add
-medicine or check out his summary or calendar.   
-         
-# Hi-Fidelity Design
-
-After asking so many questions about the product and validating
-our assumptions with experts, I created different screens using Sketch.
-There were multiple versions and ideas that I had to validate, and
-frankly, I feel like I haven't tested the solutions that I created yet.
-During this phase, I got advice from a data visualization desginer if I
-were designing the graphs correctly. I created a quick [landing page as well.](http://copenow.co)
-            
-![](//localhost:1313/cope/img/add-medicine.png)
-
-**Design Intentionality**
-<br>There are so many nuances during the high fidelity design phase
-and so we kept on going back to sketching all the time. I tried to be
-smarter in thinking about the usability of each design. My focus was to
-be more intentional in all of the affordances I create within the application.
-            
-# Prototyping
-
-I built [the prototype](https://marvelapp.com/g4b64e/screen/14364499) 
-with Invision first but I encountered some problems with the tool.
-MarvelApp proved a better choice. After building the prototype with
-normal hotlinks, I believe we were ready to try it out with some users.
-                                      
-# Guerilla Testing
-
-I tested the application with 7 college students from Ateneo de
-Manila University with convenience sampling. The results revealed some
-usability questions for the app. What would the users actually do after
-keying in their symptoms for the day? What if they do not have
-medication ready? How can we get them to come back and actually use it
-again? Indeed, there are many more things to design for the product that
-we have not explored yet.
-            
-# Next Steps
-
-The project is actually in development now and the next step is
-to conduct usability tests, install analytics and use new insights to
-inform new iterations of the product. Design a better onboarding
-process. Design for empty states. Design copywriting and strategy for
-push notifications as trigger. Integrate a social aspect into the
-application. All these will be helpful to create a better design for the app.
-            
-![](//localhost:1313/cope/img/cope-final.png)
-
-In reality, product design is the easy part. The real problems
-we're facing involve fighting a stigma around mental health, building an
-open, supportive and vulnerable community, and creating a sustainable
-business model for the product.
+![Student Alicia Kim explaining her final project](/teaching/cp/cp_a.jpg)

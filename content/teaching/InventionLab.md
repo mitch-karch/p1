@@ -1,15 +1,15 @@
 ---
 weight: 3
-title: "Invention Lab | Alexis Collado"
+title: "Invention Lab | Mitchell Karchemsky"
 description: "I strategized, designed, and developed a simple landing page for Invention Lab to set their application conversions to 66.8%."
 nav_heading: "Invention Lab Case Study"
 thumbnail: "invlab.jpg"
 case_short_title: "Invention Lab "
 case_title: "Invention Lab "
 case_subtitle: "Technical Design Mentor"
-case_description: "The Invention Lab website was a project for the Ateneo Junior Marketing Association. It's a project where I helped them reach a 66.8% conversion rate from scratch."
+case_description: "The Invention Lab is a UC Berkeley makerspace focused on helping students, researchers, and faculty to make embedded systems inventions."
 case_feature_img: "invlab.jpg"
-case_summary: "Invention Lab is an independently organized community event that aims to spread ideas that inform and transform society. My role in the project was to design their website and make the application process as easy and seamless as possible."
+case_summary: "The Invention Lab is a UC Berkeley makerspace focused on helping students, researchers, and faculty to make embedded systems inventions. My role as lab staff is to guide members through the design process as well as maintain and expand equipment availability."
 team: ["Alexis Collado", "Royce Chan"]
 roles: ["Project Manager", "User Interface Design", "Front-end Development"]
 methods: ["Contextual Inquiry", "Google Analytics", "Web Development", "User Interface Design"]
@@ -18,7 +18,7 @@ button_links:
       img: "eyeball.svg"
       text: "View Website"
       text: "Download Feature Sets"
-testimonial: "The partnership with UX Society was nothing short of amazing. Throughout the entire ideation and execution process, they have meticulously attended to our needs. The website that was created for us allowed more for applicants to apply. We’ve seen a boost in the amount of applicants that have accessed the website and applied after visiting. We’re really happy to have worked with Alexis’ team and even until now, they still continue to maintain and attend to our needs."
+testimonial: ""
 testimonial_photo: "nate.jpg"
 testimonial_author: "Nathaniel Benedicto"
 testimonial_subtitle: "Associate Vice President for Events, Ateneo Junior Marketing Association"

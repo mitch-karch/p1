@@ -1,18 +1,18 @@
 ---
 weight: 2
 title: "Design Innovation 22 | Mitchell karchemsky"
-description: " We designed a low-cost system to authenticate users for use in maker-spaces"
+description: " "
 nav_heading: "Design Innovation 22"
 thumbnail: "d22.jpg"
 case_short_title: "Design Innovation 22"
-case_title: "Design Innovation 22 Authentication System"
+case_title: "Design Innovation 22: Introduction to Prototyping and Fabrication"
 case_subtitle: "Teaching Assistant"
-case_description: "The Design Innovation 22 Authentication system allows for Maker-spaces to grant access to privilaged members in a low-cost, easy to implement solution."
+case_description: "This introductory design course teaches concepts, skills, and methods required to design, prototype, and fabricate physical objects."
 case_feature_img: "d22.jpg"
-case_summary: "My team and I itterated on the Design Innovation 22 design to create a low-cost system with a core contribution of ease of assembly and mass production" 
-team: ["Mitchell Karchemsky", "Eldon Schoop", "David Zhang", "Roland Saekow" ]
-roles: ["Systems Analysis", "User Interface Design", "User Research", "Product Design", "Electronics Design"]
-methods: ["Industrial Design", "3D CAD", "Electronics Design"]
+case_summary: "Design Innovation 22 is an introductory course teaches design fundamentals required for future Design Innovation courses" 
+team: ["Mitchell Karchemsky", "Christopher Myers", "Michael Shiloh"]
+roles: ["Lead Lectures", "Guide student work", "Provide Critique", "Assist in Grading" ]
+methods: ["Prototyping","Itterative Design", "Sketching", "3D CAD", "Electronics Design"]
 button_links:
     - link: "SAD_FinalDeliverable.pdf"
       img: "download.svg"
@@ -20,66 +20,109 @@ button_links:
     - link: "https://drive.google.com/file/d/0Bxn4bwjLduRhLS1KVGt6NUkyZDg/view"
       img: "eyeball.svg"
       text: "Current Process Video"
-testimonial: "We are a strength and conditioning institute that specializes in training elite athletes. As such, we need to keep track of the smallest changes in their physical abilities. We developed a system called a PRO score which is a battery of tests for this need. The theory was sound but it took us forever to administer the tests. The prototype that Alexis designed will be able to help us automate these tests and shrink testing time by half. He was able to listen to our needs and address it directly. I'm confident that when the final product comes in, it will help us a great deal in terms of our operations."
-testimonial_photo: "chappy.jpg"
-testimonial_author: "Chappy Callanta"
-testimonial_subtitle: "Head Coach, 360 Pro Gym"
+testimonial: ""
+testimonial_photo: ""
+testimonial_author: ""
+testimonial_subtitle: ""
 date: 2017-10-15T03:29:08-07:00
 draft: false
 ---
 
-# The Challenge
+# The Course
 
-Meeting with Chappy Callanta of 360 Pro led us to discover the root problem — the implementation of their performance testing framework. The gym uses a Numbers document on one iPad to record all tests, and relies on inefficient manual procedures to do the work. The document calculates a total pro score based on an athlete's performance for specific exercises, but the coach using it has to refer to several norms before assigning a pro score.
+Design Innovation 22 primarily serves as the fundamental foundation for students to have success in future Design Innovation Courses. With a heavy emphasis on creativity, iteration, and design, this course lays the groundwork to rapid prototype ideas with a combination of traditional and digital fabrication tools
 
-![](//localhost:1313/studies/360pro/img/dfd.png)
+![](/teaching/22/kevCaliper.jpg)
 
-Group testing is impossible to do. Chappy says "I need to duplicate the Numbers document again and again for each testing session. It's not ideal for groups of people who want to get tested." In the end, the performance framework does not work because a unique tech solution to their problem does not exist.
+Design Innovation 22 is a demanding course. The corpus of students leans more heavily towards first semester freshmen but will also attract upperclassmen due to the creative nature of the class. Class registration is heavily impacted every semester and the attracts a wide breadth of different majors, allowing for different ideas from different subject matters to be shared
 
-# Contextual Inquiry
+# Creativity
 
-To begin our systems analysis, we conducted site visits to 360 Pro. What we did was to get to know their process as much as possible and map out the actual data flows that happen. After interviewing their member coordinator and coaches, we discovered all the documents they use for a workout program for any athlete to begin. A more important issue was that Chappy was the only one using the performance framework, because they simply "didn't get it" using the iPad Numbers document. It was a relatively new system and there was no way they would be able to grasp it right away.
+The course heavily draws upon students to think creatively; to think beyond the first cast and explore more profoundly the concepts of form and motion. In any university setting, and especially at UC Berkeley, where assignments are mostly designed to pass a "scantron" lookover, Des Inv 22 brings a more investigative light to making.
 
-At this point, we knew that the solution was making the performance system more accessible to all coaches at the gym, and create a system that is possibly scalable across future branches of the gym.
+The first assignment that the students complete focuses on *elegance* and *motion*. They are required to create [Origami](https://www.wikiwand.com/en/Origami) and [Kirigami](https://www.wikiwand.com/en/Kirigami) and modify it such that it creates motion. This hybrid approach on the craft focused on two key elements: Traditional Craft and Electronic motion. Origami focused on the delicate nature of folding while still creating robust structures and figures. More than just a sculpture, a key component to the assignment was to introduce an element of motion to the model. 
 
-# Feature Prioritization
+<!-- Note: Add two, three photos here -->
 
-I've done research on how personas and user stories might carry too many assumptions and have loopholes. I came across [job stories](https://blog.intercom.com/using-job-stories-design-features-ui-ux/)
-some time before and I wanted my team to implement it. According to Paul Adams of Intercom, "Job Stories are a different way of thinking about defining features, UI, and UX." And so, being adventurous and a bit skeptical, we came up with our own. I think it helped us figure out the features we needed even more.
+![]()
 
-![](//localhost:1313/studies/360pro/img/jobstories.jpg)
+<div class="videoWrapper" align="center">
 
-This was very early on in the process and it helped my team empathize with our primary users. This wasn't really required by our instructor, we just went ahead and did it. The result was great for us, because we decided as a team on the design components we wanted to roll out: the performance testing core functionality, a leaderboard, a digital version of the gym's Workout of the Week whiteboard, and general athlete user management.
+<iframe width="853" height="480" src="https://www.youtube.com/embed/bB-pENBK2QU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-# Field Immersion
+</div>
 
-![](//localhost:1313/studies/360pro/img/field.jpg)
 
-I learned about field immersion during my visit to UX Singapore 2016. I wanted to try out the idea for our project so I invited my teammates to actually try a gym session out, just to go to an extra level of empathy. Jacob Chua and I underwent the trial program, and we tried out best to empathize with the coach who was teaching us what to do. At that point, I was thinking of the possible ways I could make the system of testing easier, considering the situation we faced. I tried to create a mental model for the coach embedded into my subconscious.
 
-# Systems Analysis
+This assignment is just one example of the ingenuity required for the class. 
 
-We created a lot of data flow diagrams for the project, considering each process very carefully. We asked ourselves, how could we would create a usable and delightful product for the end-users, considering all these data flows? How would it actually translate to the product design? Considering the feature sets we decided on, what will be the best way to design them?
+# Iteration
 
-We also created logic models, use case diagrams and other documentation. This was all bulk of the coursework we were required to do, and I was more than excited to create the screens after all the prep work we were doing. During this process however, I felt that we could have done more user research really geared towards understanding the user more, like a usability test using low-fi prototypes.
+![](/teaching/22/linda_cyl.jpg)
 
-# Design Decisions
+One of the core tenants of the course is to utilize both digital and traditional fabrication techniques to create iterative prototypes for rapid fabrication. For example, utilizing slots instead of fixed hole positions allows for teams to find the proper position without the need to create multiple *static* prototypes. 
 
-![](//localhost:1313/studies/360pro/img/testing.png)
+These skills are transferable and will help students lower production costs of future prototypes but more importantly, reduce headache when it comes to optimizing prototypes for final products.
 
-**Making Testing Easier**
-<br>Since testing was the main problem, we concentrated on designing that experience first. Using exercise cards that automatically compute pro score based on raw data while also considering gender norms, we focus the experience on actually just filling out information easily for the primary user. We wanted to eliminate cognitive load as much as possible.
 
-**Testing Summaries**
-<br>The summaries should indicate whether an athlete has improved his pro score. We used a variety of visual design communication techniques to convey this.
 
-![](//localhost:1313/studies/360pro/img/starttest.png)
+<!-- Find some iteration photos -->
 
-**Tracking Performance**
-<br>Leaderboards and member dashboards will fulfill this aspect of the product. Search definitely plays a major role in the user experience of the app, and almost always populates all design components.
+# Design
 
-# Next Steps
 
-I will have to create a FramerJS prototype to simulate microinteractions. Though that might not be useful anymore since we can go straight to development. Another challenge is using the right front-end and back-end frameworks to build the platform.
+<!-- throw a sketch here -->
 
-The gym uses an iPad for testing so further refining the responsiveness of the designs, and also optimizing for tablets would be a good idea. We will probably conduct more usability research for the project and iterate on whatever current mockups we have.
+As stressed upon earlier, creativity is a core pillar of the class. We stress not only the manufacturing and production ideals to design but we also believe that a key piece of ingenuity is required for design:
+
+> **Invokes Wonderment or Humor**
+>
+> All Projects must have a humorous element or invoke a sense of wonderment with the user/observer. People should say "wow", "how does it work", "how did they do that" or laugh or giggle upon seeing your project in final form.
+
+Although a strange request, we purposely required this for students to think more of the assignment than just the rubric; for them to really believe that what they created would be interesting to themselves and to others. This leads to creative uses of mechanisms to create hypnotizing movements. 
+
+<div class="videoWrapper" align="center">
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/IFlOCEy98lI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+Of course, we stress the importance of product design as well. Specifically, we pull back on the reliance of digital media as a tool and to first work through traditional means. Too often, students will begin their design with the latest tools and technologies believing that the advanced nature of the application will solve their problem; this is not true. More often than not, students will start their design in digital tools and become water-logged on the idiosyncrasies that the system relies on. 
+
+# Tools
+
+The pillar which bolsters the course is prototyping: bringing ideas from concept to form. We wanted to prepare the students in a way which would give them the structure and foundation to design prototypes as opposed to a dichotomous key to design. For this we were very specifically tool agnostic, other than paper and pencil.
+
+We start with sketching basics with paper and pencil. Creating rectilinear objects and visualizing ideas in physical context gives the visual-sensory feedback required to realize what their design should be. From there, we implore the students to create prototypes in low-cost materials to bring dimensionality to their idea. Only then do we recommend moving to the computer and prototype from a digital standpoint. 
+
+Maintaining our software-agnostic view, we do not teach specific software packages (e.g. Solidworks, Fusion360, Creo, etc.) but moreso the fundamental idea of bring three dimensional objects from two dimensional forms. We also harp on the notion that "digital fabrication can do anything." Unfortunately, this is not true. 3D printing, and more specifically FDM, although incredibly powerful, has many limitations when it comes to strength and structure. We heavily stress the use of traditional techniques with a combination of 3d printing with the use of laser-cutting.
+
+![](/teaching/22/kevSide.jpg)
+
+The tool that we are always delighted to work with is the Arduino platform. Electronics can be incredibly difficult especially to those with little to no experience. I had one student tell me the following:
+
+> If you told me a week ago that I can complete a project using electronics, playing around with parts like servo motors and LED lights, I'd be laughing like it as if it's a joke, because as an Econ major, I was never good at physics, which is what I'd associate electronics with, and I have never even thought about the possibility that I can learn it in a sitting and even play around with it.  
+
+Electronics can be daunting if left to discrete components like ICs, resistors, oscillators, and LEDs. The Arduino platform allows us to build on a well established playground with easy to understand components that are incredibly powerful. For example, programming multiple RGB LEDs to work in tandem and be individually addressable is one of the more difficult tasks an aspiring student may want to complete, but will require intense wiring, programming, as well as wrangling discrete electronic components such as drivers and multiplexers. Yet with the Arduino platform and components such as the Adafruit Neopixel, the complex work can be as simple as one line of code.
+
+# Reflection
+
+This class is one of my favorites to be a part of. It is incredibly rewarding to bring students into the world of product design through such a fun and rewarding course. Here are a several projects from the class
+
+<div class="videoWrapper" align="center">
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/F4yKpThZH_s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+<div class="videoWrapper" align="center">
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/7Esv3ZsBUnI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+<div class="videoWrapper" align="center">
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/LH6VFWKIDwo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
