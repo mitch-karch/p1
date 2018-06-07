@@ -7,10 +7,10 @@ thumbnail: "drill.jpg"
 case_short_title: "Drill Sergeant"
 case_title: "Drill Sergeant Authentication System"
 case_subtitle: "Hardware and Industrial Design"
-case_description: "The Drill Sergeant Authentication system allows for Maker-spaces to grant access to privilaged members in a low-cost, easy to implement solution."
+case_description: "Berkeley Institute of Design. Drill Sergeant enables new makers to build confidence through self-guided interactive physical feedback driven tutorials."
 case_feature_img: "drill.jpg"
-case_summary: "My team and I itterated on the Drill Sergeant design to create a low-cost system with a core contribution of ease of assembly and mass production" 
-team: ["Mitchell Karchemsky", "Eldon Schoop", "David Zhang", "Roland Saekow" ]
+case_summary: "Drill Sergeant enables new makers to build confidence through self-guided interactive physical feedback driven tutorials." 
+team: ["Mitchell Karchemsky", "Michelle Nguyen", "Eldon Schoop", "Valkyrie Savage", "Björn Hartmann", "Sean Follmer" ]
 roles: ["Systems Analysis", "User Interface Design", "User Research", "Product Design", "Electronics Design"]
 methods: ["Industrial Design", "3D CAD", "Electronics Design"]
 button_links:
