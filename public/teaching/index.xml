@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teachings on Mitchell Karchemsky</title>
+    <link>http://mkar.ch/teaching/</link>
+    <description>Recent content in Teachings on Mitchell Karchemsky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate>
+    
+	<atom:link href="http://mkar.ch/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Critical Practices | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/teaching/criticalpractice/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/teaching/criticalpractice/</guid>
+      <description>The Course Critical Practices is taught under the Berkeley Center of New Media. A hybrid course which focuses not only on the history and theory behind revolutionary installations and pieces, but invites the students to practice. As evident in the course title, a core tenant of the class is the critical view which must be taken by the students to embrace and offer cultural critique through the use of art.</description>
+    </item>
+    
+    <item>
+      <title>Design Innovation 22 | Mitchell karchemsky</title>
+      <link>http://mkar.ch/teaching/des22/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/teaching/des22/</guid>
+      <description>The Course Design Innovation 22 primarily serves as the fundamental foundation for students to have success in future Design Innovation Courses. With a heavy emphasis on creativity, iteration, and design, this course lays the groundwork to rapid prototype ideas with a combination of traditional and digital fabrication tools
+Design Innovation 22 is a demanding course. The corpus of students leans more heavily towards first semester freshmen but will also attract upperclassmen due to the creative nature of the class.</description>
+    </item>
+    
+    <item>
+      <title>Invention Lab | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/teaching/inventionlab/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/teaching/inventionlab/</guid>
+      <description>The CITRIS Invention Lab supports faculty, student and community innovation by providing the knowledge, tools and support to rapidly design and prototype novel interactive products, embedded sensing systems and integrated mobile devices. This facility is a vital piece of the CITRIS pipeline running from the minds of researchers through CITRIS laboratories, and into the markets, industries, and streets of the world. The Invention Lab offers a variety of prototyping equipment ranging from basic craft tools to electronics workbenches, CAD stations and professional digital fabrication machines.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,9 @@
-baseURL = "localhost:1313"
+baseURL = "http://mkar.ch/"
 languageCode = "en-us"
 title = "Mitchell Karchemsky"
 theme = "hugo-lodi-theme"
 googleAnalytics = "UA-120199108-1"
+relativeURLS=true
 
 [params]
     theme_color = "#574CDD"

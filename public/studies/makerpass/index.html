@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MakerPass | Mitchell karchemsky</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#574CDD">
+<meta name="description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
+<meta property="og:description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
+<meta name="twitter:description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
+<meta property="og:image" content="makerpassRender7.jpg">
+<meta name="twitter:image" content="makerpassRender7.jpg">
+<link rel="icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="http://mkar.ch/css/final.css">
+<link rel="stylesheet" href="http://mkar.ch/css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="main-navigation stuckMenu">
+    <a href="http://mkar.ch/">
+        <img class="logo" src="http://mkar.ch/img/logo.png" alt="My Portfolio">
+    </a>
+    <h5>MakerPass</h5>
+    <div class="sub-navigation">
+        <a href="#" class="main-navigation-link" id="process-link" data-scroll-goto="1">Teaching</a>
+        <a href="http://mkar.ch/" class="main-navigation-link" data-scroll-goto="2">Case Studies</a>
+    </div>
+</nav>
+
+        <section>
+    <div class="main-case-study">
+        <h1 class="title" style="text-align: center;">MakerPass Authentication System</h1>
+        <h2 class="subtitle" style="text-align: center;">Hardware and Industrial Design</h2>
+        <img src="img/makerpassRender7.jpg" alt="">
+        <p class="summary">My team and I itterated on the MakerPass design to create a low-cost system with a core contribution of ease of assembly and mass production</p>
+        <div class="case-details">
+            <div class="case-details-item">
+                <p><strong>Team</strong>
+                    
+                    <br>Mitchell Karchemsky
+                    
+                    <br>Eldon Schoop
+                    
+                    <br>David Zhang
+                    
+                    <br>Roland Saekow
+                    
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>My Role</strong>
+                    
+                    <br>Systems Analysis
+                    
+                    <br>User Interface Design
+                    
+                    <br>User Research
+                    
+                    <br>Product Design
+                    
+                    <br>Electronics Design
+                    
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>Methods</strong>
+                    
+                    <br>Industrial Design
+                    
+                    <br>3D CAD
+                    
+                    <br>Electronics Design
+                    
+                </p>
+            </div>
+        </div>
+        
+</section>
+
+        
+
+
+        <section>
+            <div class="content-case-study">
+                
+
+<h1 id="the-challenge">The Challenge</h1>
+
+<p>Authenticating users for any space is a very difficult task. In a community like the Jacobs Hall Makerspace and the CITRIS Invention Lab, it is imperative for users to be properly trained and authorized to use the equipment and spaces. To solve this problem, Eldon Schoop, Chris Myers, and Björn Hartmann, developed the Makerpass system. This allows for students to use their existing Cal ID (school distributed Identification card) to &ldquo;badge in&rdquo; to authenticate their access to the location, or equipment.</p>
+
+<h1 id="version-1">Version 1</h1>
+
+<p>The first design of the system consisted of a 3d printed case, a laser-cut acrylic mount, a handful of electronic components, and several other miscellaneous items.</p>
+
+<p><img src="../../studies/maker/assemble_done.jpg" alt="" /></p>
+
+<p>This system has been distributed and is actively used in many locations across the UC Berkeley campus. It is currently handling access for over 1000 concurrent users.</p>
+
+<h1 id="version-1-5">Version 1.5</h1>
+
+<p>One of the common issues reported by our users was the difficult of &ldquo;badging-in&rdquo;, the act of having their ID card scanned by the RFID reader. We concluded that the two main factors which contribute to this is the &ldquo;similar-frequency&rdquo; of our LED lighting creating excess electrical noise, and physical distance limiting our sensors range. This can be seen by the red coil of wire at 12 o&rsquo;clock.</p>
+
+<p>I was brought along to help design the next iteration of the product with several emphases:</p>
+
+<ol>
+<li>Keep cost as low as possible</li>
+<li>Reduce BOM / components to keep package small</li>
+<li>Minimize assembly overhead such that production and maintenance is as easy as possible.</li>
+</ol>
+
+<h1 id="case-redesign">Case Redesign</h1>
+
+<p><img src="../../studies/maker/glue_cover.jpg" alt="" /></p>
+
+<p>One of the largest components we wanted to address was the housing and 3d printed case. The first design utilized many overhanging geometries which required an advanced, professional grade 3d printer with soluble supports. This was the largest barrier to entry as not many makerspaces will support printers with dedicated secondary support print capabilities.</p>
+
+<p>To address this, I redesigned the case that minimizes the necessity of support material.</p>
+
+<p><img src="../../studies/maker/rend4.JPG" alt="" /></p>
+
+<p>This new design has only one section of overhangs which are small enough that most if not all consumer-grade 3d printers will be able to bridge the gaps. We reduced the necessity for other hardware with the addition of a &ldquo;T-Slot&rdquo; system on the sides. This will allow future versions to create brackets which can hold new components (e.g. speakers).</p>
+
+<p><img src="../../studies/maker/redCase.jpg" alt="" /></p>
+
+<p>We decided to keep the acrylic baseplate and top cover, but with two major differences. The baseplate no longer serves as the &ldquo;grounding&rdquo; surface for the entire device, that is, the weight of the case is not placed on the acrylic, the case supports itself. The bottom acrylic now only serves as the base for electronic components to stand on. This means that in case of maintenance, a full electronic &ldquo;board&rdquo; can be dropped into a case &ldquo;in-the-wild&rdquo; limiting downtime.</p>
+
+<p>The second difference is that the top acrylic is no longer required to be sealed in with adhesive. The top adhesive is inserted with a press-fit that keeps it secure.</p>
+
+<p><img src="../../studies/maker/rend6.JPG" alt="" /></p>
+
+<h1 id="electronics-redesign">Electronics Redesign</h1>
+
+<p>As well as redesigning the physical enclosure, I was tasked to help reduce the complexity of the electronic design. Specifically with the electronics in the previous iteration, we had many components which were either overpowered, or would introduce more hassle than they would solve.</p>
+
+<p>For example, we wanted to use addressable LED pixels to create lighting effects for user feedback once they have badged in. We originally source &ldquo;Adafruit Neopixels&rdquo; which operate on a very specific timing protocol. Although this works very well on other embedded systems, our use of the SoC Raspberry Pi. To use the Neopixels, we had to bring in a second controller powered by USB which would send the precise timing controls to the LED pixels. This controller costs us an extra $25. With this in mind, we switched to dotstars (APA102) modules which allow us to use the SPI protocol, which the Raspberry Pi supports natively.</p>
+
+<p>We also removed the stereo amplifier which was powered through the analog audio output and use the Raspberry Pi&rsquo;s GPIO pins to create analog audio for the speakers.</p>
+
+<p><img src="../../studies/maker/electronics.jpg" alt="" /></p>
+
+<h1 id="next-steps">Next Steps</h1>
+
+<p>The current iteration is to bring in mostly new electronics and keep the low-cost idea to fruition. We also plan on building an even smaller version of the board for more ubiquitous use throughout makerspaces by developing all encompassing boards.</p>
+
+<p>It is important to note that the second iteration described in this write-up is not yet live, but will be live by the end of Summer 2018.</p>
+
+<p><img src="../../studies/maker/printing.jpg" alt="" /></p>
+
+            </div>
+        </section>
+        
+        <section data-scroll-index="1">
+    <div class="process">
+        <div class="header">
+            <h1 class="title">Teaching Experience</h1>
+            <h2 class="subtitle">Courses and Mentorship</h2>
+        </div>
+        <div class="process-wrapper">
+            
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/criticalpractice/"><img src="http://mkar.ch/img/criticalP.jpg" alt=""></a>
+                <h4>Critical Practices</h4>
+                <h5>Teaching Assistant</h5>
+                <p>A hands-on, studio design course where students work at the intersection of technological innovation and socially engaged art.</p>
+                <a href="../../teaching/criticalpractice/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/des22/"><img src="http://mkar.ch/img/d22.jpg" alt=""></a>
+                <h4>Design Innovation 22</h4>
+                <h5>Teaching Assistant</h5>
+                <p>This introductory design course teaches concepts, skills, and methods required to design, prototype, and fabricate physical objects.</p>
+                <a href="../../teaching/des22/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/inventionlab/"><img src="http://mkar.ch/img/invlab.jpg" alt=""></a>
+                <h4>Invention Lab </h4>
+                <h5>Technical Design Mentor</h5>
+                <p>The Invention Lab is a UC Berkeley makerspace focused on helping students, researchers, and faculty to make embedded systems inventions.</p>
+                <a href="../../teaching/inventionlab/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/"><img src="http://mkar.ch/img/" alt=""></a>
+                <h4></h4>
+                <h5></h5>
+                <p></p>
+                <a href="../../teaching/" class="read-more">Read Me</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+        <section data-scroll-index="2">
+    <div class="case-studies">
+        <div class="header">
+            <h1 class="title">Case Studies</h1>
+            <h2 class="subtitle">Selected Works</h2>
+        </div>
+        <div class="case-studies-wrapper">
+            
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/bifr%C3%B6st/"><img src="http://mkar.ch/img/bifro.jpg" alt=""></a>
+                <h4>Bifröst</h4>
+                <h5>Better Embedded Systems Debugging</h5>
+                <p>Berkeley Institute of Design. How do we better instrument embedded systems for combined software and hardware debugging?</p>
+                <a href="../../studies/bifr%C3%B6st/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/dalm/"><img src="http://mkar.ch/img/dalm.jpg" alt=""></a>
+                <h4>Dalmatian</h4>
+                <h5>How can we make firefighters safer?</h5>
+                <p>Technology startup focused on creating a safer more effective workforce for firefighters through the use of on-person telemetry units.</p>
+                <a href="../../studies/dalm/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/within2/"><img src="http://mkar.ch/img/zero9.jpg" alt=""></a>
+                <h4>Within2</h4>
+                <h5>How do we create music we can feel?</h5>
+                <p>Collaboration with Meyer Sound, The Berkeley Center for New Media, and Artist Tarek Atoui. How do we create music for the hearing impaired?</p>
+                <a href="../../studies/within2/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/makerpass/"><img src="http://mkar.ch/img/makerpassRender7.jpg" alt=""></a>
+                <h4>MakerPass</h4>
+                <h5>Hardware and Industrial Design</h5>
+                <p>The MakerPass Authentication system allows for Maker-spaces to grant access to privilaged members in a low-cost, easy to implement solution.</p>
+                <a href="../../studies/makerpass/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/doom/"><img src="http://mkar.ch/img/dom.jpg" alt=""></a>
+                <h4>Doom Sense</h4>
+                <h5>How can we feel information?</h5>
+                <p>An experiment in haptic feedback modalities and sensory extension. We improved the performance of a player by delivering curated contextual information</p>
+                <a href="../../studies/doom/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/drill/"><img src="http://mkar.ch/img/drill.jpg" alt=""></a>
+                <h4>Drill Sergeant</h4>
+                <h5>Hardware and Industrial Design</h5>
+                <p>Berkeley Institute of Design. Drill Sergeant enables new makers to build confidence through self-guided interactive physical feedback driven tutorials.</p>
+                <a href="../../studies/drill/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/"><img src="http://mkar.ch/img/" alt=""></a>
+                <h4></h4>
+                <h5></h5>
+                <p></p>
+                <a href="../../studies/" class="read-more">Read Me</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+        <footer>
+    <div class="icons">
+        
+        <a href="mailto:mitch.karchemsky@gmail.com">
+            <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+                
+                <title>ui-16px-1_email-84</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-94.000000, -336.000000)" id="Group" fill="#505050">
+                        <g transform="translate(94.000000, 335.000000)">
+                            <g id="ui-16px-1_email-84" transform="translate(0.000000, 1.000000)">
+                                <path d="M15,0 L1,0 C0.448,0 0,0.447 0,1 L0,13 C0,13.553 0.448,14 1,14 L15,14 C15.552,14 16,13.553 16,13 L16,1 C16,0.447 15.552,0 15,0 Z M14,12 L2,12 L2,5.723 L7.504,8.868 C7.812,9.044 8.189,9.044 8.496,8.868 L14,5.723 L14,12 Z M14,3.42 L8,6.849 L2,3.42 L2,2 L14,2 L14,3.42 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <a href="#" style="color: #574cdd; text-decoration: underline;" data-scroll-goto="0">Back to top</a>
+</footer>
+        
+
+        
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-120199108-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="http://mkar.ch/js/jquery-1.js"></script>
+<script src="http://mkar.ch/js/stickUp.js"></script>
+<script src="http://mkar.ch/js/scrollIt.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready( function() {
+            $('.main-navigation').stickUp({
+
+            });
+        });
+    });
+    $(function(){
+        $.scrollIt({
+            topOffset: -70,         
+            easing: 'ease-in-out'
+        });
+    });
+</script>
+    </body>
+</html>

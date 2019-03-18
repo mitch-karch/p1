@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Studies on Mitchell Karchemsky</title>
+    <link>http://mkar.ch/studies/</link>
+    <description>Recent content in Studies on Mitchell Karchemsky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate>
+    
+	<atom:link href="http://mkar.ch/studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bifröst | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/bifr%C3%B6st/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/bifr%C3%B6st/</guid>
+      <description>Abstract A key challenge in developing and debugging custom embedded systems is understanding their behavior, particularly at the boundary between hardware and software. Existing tools such as step debuggers and logic analyzers only focus on software or hardware, respectively. Bifröst is a new development environment designed to illuminate the boundary between embedded code and circuits.
+Bifröst automatically instruments and captures the progress of the user’s code, variable values, and the electrical and bus activity occurring at the interface between the processor and the circuit it operates in.</description>
+    </item>
+    
+    <item>
+      <title>Dalmatian | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/dalm/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/dalm/</guid>
+      <description>Dalmatian In the Fall of 2016, I enrolled in the class &amp;ldquo;Interactive Device Design&amp;rdquo; with Björn Hartmann and took on the project of creating better response technology for emergency personnel. We interviewed with firefighters all around the San Francisco Bay Area, and we found that the hardest part of their job was communication.
+ We understood that only about 20% of radio communications are fully understood between both parties: the incident commander who handles the situation from a van outside the scene, and the firefighter on the scene.</description>
+    </item>
+    
+    <item>
+      <title>Within2 | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/within2/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/within2/</guid>
+      <description>Background Within 2 was a project I worked on with Meyer Sound, The Berkeley Center for New Media, and Artist Tarek Atoui. We started with the question of &amp;ldquo;How do we create music for the hearing impaired?&amp;rdquo; A quote by Stanford Professor Anne Fernald guided me throughout the project:
+ &amp;ldquo;Sound is touch at a distance.&amp;rdquo;
+ How can we rethink music in such a way that brings it to a more visceral physical sensation?</description>
+    </item>
+    
+    <item>
+      <title>MakerPass | Mitchell karchemsky</title>
+      <link>http://mkar.ch/studies/makerpass/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/makerpass/</guid>
+      <description>The Challenge Authenticating users for any space is a very difficult task. In a community like the Jacobs Hall Makerspace and the CITRIS Invention Lab, it is imperative for users to be properly trained and authorized to use the equipment and spaces. To solve this problem, Eldon Schoop, Chris Myers, and Björn Hartmann, developed the Makerpass system. This allows for students to use their existing Cal ID (school distributed Identification card) to &amp;ldquo;badge in&amp;rdquo; to authenticate their access to the location, or equipment.</description>
+    </item>
+    
+    <item>
+      <title>Doom Sense | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/doom/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/doom/</guid>
+      <description>Doom Sense Doom Sense was a project done in the class &amp;ldquo;Software Defined PCBs.&amp;rdquo; The class focused on the idea of using software to define which components need to be utilized in order to bridge the gap in creating hardware. Being a student of Cognitive Science, I wanted to incorporate what I had learned about neuroplasticity to see how adding an additional sense modality would affect ones performance.
+We modeled our device around the first person shooter DOOM, where it is important to always be tracking what resources you have.</description>
+    </item>
+    
+    <item>
+      <title>Drill Sergeant | Mitchell karchemsky</title>
+      <link>http://mkar.ch/studies/drill/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/drill/</guid>
+      <description>Abstract Woodworking tutorials are commonly used to gain proficiency with power tools. However, these tutorials&amp;rsquo; goals generally aim to assist users with constructing an end product, as opposed to developing their confidence and technique with tools.
+We present an ecosystem of smart tools which helps users gain confidence, develop technique, and construct woodworking projects by providing guidance and feedback through skill-building activities and macros of common building tasks. We demonstrate how such techniques are enabled by augmenting common workshop tools (drill/driver, saw) with measurement, state sensing, and visual feedback, and describe the design space of such augmentations.</description>
+    </item>
+    
+  </channel>
+</rss>

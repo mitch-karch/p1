@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Doom Sense | Mitchell Karchemsky</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#574CDD">
+<meta name="description" content="Developed.">
+<meta property="og:description" content="Developed.">
+<meta name="twitter:description" content="Developed.">
+<meta property="og:image" content="dom.jpg">
+<meta name="twitter:image" content="dom.jpg">
+<link rel="icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="http://mkar.ch/css/final.css">
+<link rel="stylesheet" href="http://mkar.ch/css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="main-navigation stuckMenu">
+    <a href="http://mkar.ch/">
+        <img class="logo" src="http://mkar.ch/img/logo.png" alt="My Portfolio">
+    </a>
+    <h5>Doom Sense</h5>
+    <div class="sub-navigation">
+        <a href="#" class="main-navigation-link" id="process-link" data-scroll-goto="1">Teaching</a>
+        <a href="http://mkar.ch/" class="main-navigation-link" data-scroll-goto="2">Case Studies</a>
+    </div>
+</nav>
+
+        <section>
+    <div class="main-case-study">
+        <h1 class="title" style="text-align: center;">Doom Sense</h1>
+        <h2 class="subtitle" style="text-align: center;">How can we feel information?</h2>
+        <img src="img/dom.jpg" alt="">
+        <p class="summary">Doom Sense is an experiment in haptic feedback modalities and sensory extension. Our goal is to improve the performance of a player at the game DOOM, by delivering curated contextual information</p>
+        <div class="case-details">
+            <div class="case-details-item">
+                <p><strong>Team</strong>
+                    
+                    <br>Mitchell Karchemsky
+                    
+                    <br>Tomás Vega
+                    
+                    <br>Aleks Kamko
+                    
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>My Role</strong>
+                    
+                    <br>Initial Prototyping
+                    
+                    <br>Hardware Design
+                    
+                    <br>Embedded System Design
+                    
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>Methods</strong>
+                    
+                    <br>Prototyping
+                    
+                    <br>eagleCAD
+                    
+                    <br>Embedded System Development
+                    
+                    <br>Software Programming
+                    
+                </p>
+            </div>
+        </div>
+        
+</section>
+
+        
+
+
+        <section>
+            <div class="content-case-study">
+                
+
+<h1 id="doom-sense">Doom Sense</h1>
+
+<p>Doom Sense was a project done in the class &ldquo;Software Defined PCBs.&rdquo; The class focused on the idea of using software to define which components need to be utilized in order to bridge the gap in creating hardware. Being a student of Cognitive Science, I wanted to incorporate what I had learned about neuroplasticity to see how adding an additional sense modality would affect ones performance.</p>
+
+<p><img src="../../studies/doom/dms.png" alt="" /></p>
+
+<p>We modeled our device around the first person shooter DOOM, where it is important to always be tracking what resources you have. For example, you would never want to be in a dark hallway with very low health. It also adds to the gameplay if you knew when enemies were somewhere not directly in your field of view.</p>
+
+<p><img src="../../studies/doom/dom.jpg" alt="" /></p>
+
+<p>With these goals in mind, we created Doom Sense. Doom Sense is a jacket which a player would wear giving them a more immersive experience in a game. We focused on two data streams: Health, and proximity of enemies. We used a large dc motor with a offset counterweight to create vibrations. By scraping the data from the game of the remaining health, we could convert it to a percentage, with a percentage level, we modulate a waveform which simulates sinus rhythm of the heart; the less health you have, the faster and more aggressive the heartbeat is. The other data point we use is the proximity of enemies surrounding the player. We look for the closest enemy to the player that isn&rsquo;t in the direct field of view, calculate the distance and then with some trade-secret magic, convert distance information into pulse strength. We five motors on the neck of our jacket and found that most experienced video game players would adapt quickly and triangulate within the first 2 minutes of game play, while more novice players would take 5.</p>
+
+            </div>
+        </section>
+        
+        <section data-scroll-index="1">
+    <div class="process">
+        <div class="header">
+            <h1 class="title">Teaching Experience</h1>
+            <h2 class="subtitle">Courses and Mentorship</h2>
+        </div>
+        <div class="process-wrapper">
+            
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/criticalpractice/"><img src="http://mkar.ch/img/criticalP.jpg" alt=""></a>
+                <h4>Critical Practices</h4>
+                <h5>Teaching Assistant</h5>
+                <p>A hands-on, studio design course where students work at the intersection of technological innovation and socially engaged art.</p>
+                <a href="../../teaching/criticalpractice/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/des22/"><img src="http://mkar.ch/img/d22.jpg" alt=""></a>
+                <h4>Design Innovation 22</h4>
+                <h5>Teaching Assistant</h5>
+                <p>This introductory design course teaches concepts, skills, and methods required to design, prototype, and fabricate physical objects.</p>
+                <a href="../../teaching/des22/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/inventionlab/"><img src="http://mkar.ch/img/invlab.jpg" alt=""></a>
+                <h4>Invention Lab </h4>
+                <h5>Technical Design Mentor</h5>
+                <p>The Invention Lab is a UC Berkeley makerspace focused on helping students, researchers, and faculty to make embedded systems inventions.</p>
+                <a href="../../teaching/inventionlab/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../teaching/"><img src="http://mkar.ch/img/" alt=""></a>
+                <h4></h4>
+                <h5></h5>
+                <p></p>
+                <a href="../../teaching/" class="read-more">Read Me</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+        <section data-scroll-index="2">
+    <div class="case-studies">
+        <div class="header">
+            <h1 class="title">Case Studies</h1>
+            <h2 class="subtitle">Selected Works</h2>
+        </div>
+        <div class="case-studies-wrapper">
+            
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/bifr%C3%B6st/"><img src="http://mkar.ch/img/bifro.jpg" alt=""></a>
+                <h4>Bifröst</h4>
+                <h5>Better Embedded Systems Debugging</h5>
+                <p>Berkeley Institute of Design. How do we better instrument embedded systems for combined software and hardware debugging?</p>
+                <a href="../../studies/bifr%C3%B6st/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/dalm/"><img src="http://mkar.ch/img/dalm.jpg" alt=""></a>
+                <h4>Dalmatian</h4>
+                <h5>How can we make firefighters safer?</h5>
+                <p>Technology startup focused on creating a safer more effective workforce for firefighters through the use of on-person telemetry units.</p>
+                <a href="../../studies/dalm/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/within2/"><img src="http://mkar.ch/img/zero9.jpg" alt=""></a>
+                <h4>Within2</h4>
+                <h5>How do we create music we can feel?</h5>
+                <p>Collaboration with Meyer Sound, The Berkeley Center for New Media, and Artist Tarek Atoui. How do we create music for the hearing impaired?</p>
+                <a href="../../studies/within2/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/makerpass/"><img src="http://mkar.ch/img/makerpassRender7.jpg" alt=""></a>
+                <h4>MakerPass</h4>
+                <h5>Hardware and Industrial Design</h5>
+                <p>The MakerPass Authentication system allows for Maker-spaces to grant access to privilaged members in a low-cost, easy to implement solution.</p>
+                <a href="../../studies/makerpass/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/doom/"><img src="http://mkar.ch/img/dom.jpg" alt=""></a>
+                <h4>Doom Sense</h4>
+                <h5>How can we feel information?</h5>
+                <p>An experiment in haptic feedback modalities and sensory extension. We improved the performance of a player by delivering curated contextual information</p>
+                <a href="../../studies/doom/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/drill/"><img src="http://mkar.ch/img/drill.jpg" alt=""></a>
+                <h4>Drill Sergeant</h4>
+                <h5>Hardware and Industrial Design</h5>
+                <p>Berkeley Institute of Design. Drill Sergeant enables new makers to build confidence through self-guided interactive physical feedback driven tutorials.</p>
+                <a href="../../studies/drill/" class="read-more">Read Me</a>
+            </div>
+            
+
+            <div class="case-study-item">
+                <a href="../../studies/"><img src="http://mkar.ch/img/" alt=""></a>
+                <h4></h4>
+                <h5></h5>
+                <p></p>
+                <a href="../../studies/" class="read-more">Read Me</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+        <footer>
+    <div class="icons">
+        
+        <a href="mailto:mitch.karchemsky@gmail.com">
+            <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+                
+                <title>ui-16px-1_email-84</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-94.000000, -336.000000)" id="Group" fill="#505050">
+                        <g transform="translate(94.000000, 335.000000)">
+                            <g id="ui-16px-1_email-84" transform="translate(0.000000, 1.000000)">
+                                <path d="M15,0 L1,0 C0.448,0 0,0.447 0,1 L0,13 C0,13.553 0.448,14 1,14 L15,14 C15.552,14 16,13.553 16,13 L16,1 C16,0.447 15.552,0 15,0 Z M14,12 L2,12 L2,5.723 L7.504,8.868 C7.812,9.044 8.189,9.044 8.496,8.868 L14,5.723 L14,12 Z M14,3.42 L8,6.849 L2,3.42 L2,2 L14,2 L14,3.42 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <a href="#" style="color: #574cdd; text-decoration: underline;" data-scroll-goto="0">Back to top</a>
+</footer>
+        
+
+        
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-120199108-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="http://mkar.ch/js/jquery-1.js"></script>
+<script src="http://mkar.ch/js/stickUp.js"></script>
+<script src="http://mkar.ch/js/scrollIt.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).ready( function() {
+            $('.main-navigation').stickUp({
+
+            });
+        });
+    });
+    $(function(){
+        $.scrollIt({
+            topOffset: -70,         
+            easing: 'ease-in-out'
+        });
+    });
+</script>
+    </body>
+</html>
