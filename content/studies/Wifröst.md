@@ -3,12 +3,12 @@ weight: 1
 title: "Wifröst | Mitchell Karchemsky"
 description: ""
 nav_heading: "Wifröst"
-thumbnail: "wifro.jpg"
+thumbnail: "wifro.png"
 case_short_title: "Wifröst"
 case_title: "Wifröst"
 case_subtitle: "Wi-Fi Embedded Systems Debugging"
-case_description: "Berkeley Institute of Design. How do we better debug network enabled embedded systems?"
-case_feature_img: "wifro.jpg"
+case_description: "Berkeley Institute of Design. How do we use instrumented hardware to better debug network enabled IOT embedded systems?"
+case_feature_img: "wifro.png"
 case_summary: "Wifröst links the divide in embedded systems programming of hardware and software debugging. This work is published in UIST 2018"
 team: ["Mitchell Karchemsky", "Will McGrath", "Daniel Drew", "Jeremey Warner", "Andrew Head", "Björn Hartmann"]
 roles: ["System Engineering", "Documentation" ]
@@ -30,14 +30,14 @@ date: 2017-10-15T03:29:08-07:00
 draft: false
 ---
 
-![](/studies/bifro/bifro.png)
+![](/studies/wifro/wifro.png)
 
 # Abstract
 The rise in prevalence of Internet of Things (IoT) technologies has encouraged more people to prototype and build custom internet connected devices based on low power microcontrollers. While well-developed tools exist for debugging network communication for desktop and web applications, it can be difficult for developers of networked embedded systems to figure out why their network code is failing due to the limited output affordances of embedded devices. This paper presents WiFröst, a new approach for debugging these systems using instrumentation that spans from the device itself, to its communication API, to the wireless router and back-end server. WiFröst automatically collects this data, displays it in a web-based visualization, and highlights likely issues with an extensible suite of checks based on analysis of recorded execution traces.
 
 <div class="videoWrapper" align="center">
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/nEUb5j6LKag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/watch?v=4fzYWxuV_hw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 
