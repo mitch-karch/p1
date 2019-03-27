@@ -9,10 +9,10 @@ case_title: "Dalmatian"
 case_subtitle: "How can we make firefighters safer?"
 case_description: "Technology startup focused on creating a safer more effective workforce for firefighters through the use of on-person telemetry units."
 case_feature_img: "dalm.jpg"
-case_summary: "Within 2 was a project I worked on with Meyer Sound, The Berkeley Center for New Media, and Artist Tarek Atoui. We started with the question of How do we create music for the hearing impaired?"
+case_summary: "Dalmatian was a technology startup focused on answer the question of how we can make firefighters safer in the hectic environment of an active emergency. We created Helios"
 team: ["Mitchell Karchemsky", "Will Porter", "Simon Scott", "Yi Tong"]
 roles: ["Initial Prototyping", "Idea Exploration", "Product Manufacturing", "Embedded System Design", ]
-methods: ["Prototyping","eagleC AD", "Sketching", "3D CAD", "Software Programming"]
+methods: ["Prototyping","eagleCAD", "Sketching", "3D CAD", "Software Programming"]
 button_links:
     - link: "https://marvelapp.com/g4b64e/screen/14364499"
       img: "eyeball.svg"

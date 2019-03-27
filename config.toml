@@ -19,7 +19,7 @@ relativeURLS=true
 [params.hero]
     enable = true
     avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Mitchell, an Interaction and Industrial Designer from Berkeley."
+    subtitle = "Hi! I'm Mitchell! I'm a Design Engineer and Software Researcher"
     hero_right = ["My name is Mitchell Karchemsky. I graduated from UC Berkeley, studying Cognitive Science, and Computer Science, with a focus in Computational Modelling. My interests include Human-Computer Interaction, Embedded Systems, Teaching, and Coffee.", "I served as Research Staff at the Berkeley Institute of Design under Björn Hartmann focusing on HCI topics such as Learning & Expertise Sharing, Interactive Device Design & Fabrication, and Tools for Embedded Systems","I also served as a Design Mentor at the CITRIS Invention Lab, managing digital fabrication equipment as well as mentoring students for embedded systems inventions."]
     resume = "ResumeKarchemsky.pdf"
 
