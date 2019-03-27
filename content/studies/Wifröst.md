@@ -37,7 +37,7 @@ The rise in prevalence of Internet of Things (IoT) technologies has encouraged m
 
 <div class="videoWrapper" align="center">
 
-<iframe width="853" height="480" src="https://www.youtube.com/watch?v=4fzYWxuV_hw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4fzYWxuV_hw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 

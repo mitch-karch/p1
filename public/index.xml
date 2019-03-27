@@ -41,6 +41,24 @@ Bifröst automatically instruments and captures the progress of the user’s cod
     </item>
     
     <item>
+      <title>Heimdall | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/heimdall/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/heimdall/</guid>
+      <description>Abstract Students and hobbyists build embedded systems that combine sensing, actuation and microcontrollers on solderless breadboards. To help students debug such circuits, experienced teachers apply visual inspection, targeted measurements, and circuit modifications to diagnose and localize the problem(s). However, experienced helpers may not always be available to review student projects in person. To enable remote debugging of circuit problems, we introduce Heimdall, a remote electronics workbench that allows experts to visually inspect a student’s circuit; perform measurements; and to re-wire and inject test signals.</description>
+    </item>
+    
+    <item>
+      <title>Wifröst | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/wifr%C3%B6st/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/wifr%C3%B6st/</guid>
+      <description>Abstract The rise in prevalence of Internet of Things (IoT) technologies has encouraged more people to prototype and build custom internet connected devices based on low power microcontrollers. While well-developed tools exist for debugging network communication for desktop and web applications, it can be difficult for developers of networked embedded systems to figure out why their network code is failing due to the limited output affordances of embedded devices. This paper presents WiFröst, a new approach for debugging these systems using instrumentation that spans from the device itself, to its communication API, to the wireless router and back-end server.</description>
+    </item>
+    
+    <item>
       <title>Within2 | Mitchell Karchemsky</title>
       <link>http://mkar.ch/studies/within2/</link>
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
