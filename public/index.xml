@@ -117,5 +117,14 @@ We modeled our device around the first person shooter DOOM, where it is importan
 We present an ecosystem of smart tools which helps users gain confidence, develop technique, and construct woodworking projects by providing guidance and feedback through skill-building activities and macros of common building tasks. We demonstrate how such techniques are enabled by augmenting common workshop tools (drill/driver, saw) with measurement, state sensing, and visual feedback, and describe the design space of such augmentations.</description>
     </item>
     
+    <item>
+      <title>Strands | Mitchell Karchemsky</title>
+      <link>http://mkar.ch/studies/strands/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>http://mkar.ch/studies/strands/</guid>
+      <description>Strands Strands was an extension of the Within 2 art project I collaborated with artist Tarek Atoui. In the exploration of generating different timbres and creating instruments which give physical feedback, I designed the Strand board. Emulating stalks of wheat in a field, you can stroke your hand through the acrylic rods, creating frequencies of different pitch(x direction), volume(y direction), and timbre(magnitude of oscillation created by spring back in the individual stalks).</description>
+    </item>
+    
   </channel>
 </rss>

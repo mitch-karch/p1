@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Drill Sergeant | Mitchell karchemsky</title>
+<title>Strands | Mitchell Karchemsky</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#574CDD">
-<meta name="description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
-<meta property="og:description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
-<meta name="twitter:description" content=" We designed a low-cost system to authenticate users for use in maker-spaces">
-<meta property="og:image" content="drill.jpg">
-<meta name="twitter:image" content="drill.jpg">
+<meta name="description" content="Developed.">
+<meta property="og:description" content="Developed.">
+<meta name="twitter:description" content="Developed.">
+<meta property="og:image" content="stra.jpg">
+<meta name="twitter:image" content="stra.jpg">
 <link rel="icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
 <link rel="shortcut icon" href="http://mkar.ch/img/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="http://mkar.ch/css/final.css">
@@ -24,7 +24,7 @@
     <a href="http://mkar.ch/">
         <img class="logo" src="http://mkar.ch/img/logo.png" alt="My Portfolio">
     </a>
-    <h5>Drill Sergeant</h5>
+    <h5>Strands</h5>
     <div class="sub-navigation">
         <a href="#" class="main-navigation-link" id="process-link" data-scroll-nav="1">Teaching</a>
         <a href="http://mkar.ch/" class="main-navigation-link" data-scroll-nav="2">Case Studies</a>
@@ -33,51 +33,45 @@
 
         <section>
     <div class="main-case-study">
-        <h1 class="title" style="text-align: center;">Drill Sergeant Authentication System</h1>
-        <h2 class="subtitle" style="text-align: center;">Hardware and Industrial Design</h2>
-        <img src="img/drill.jpg" alt="">
-        <p class="summary">Drill Sergeant enables new makers to build confidence through self-guided interactive physical feedback driven tutorials.</p>
+        <h1 class="title" style="text-align: center;">Strands</h1>
+        <h2 class="subtitle" style="text-align: center;">How can we feel information?</h2>
+        <img src="img/stra.jpg" alt="">
+        <p class="summary">Strands is an experiment in haptic feedback modalities and sound art. The goal was to explore timbre through a physical interactive modality</p>
         <div class="case-details">
             <div class="case-details-item">
                 <p><strong>Team</strong>
                     
                     <br>Mitchell Karchemsky
                     
-                    <br>Michelle Nguyen
+                    <br>Tarek Atoui
                     
-                    <br>Eldon Schoop
-                    
-                    <br>Valkyrie Savage
-                    
-                    <br>Björn Hartmann
-                    
-                    <br>Sean Follmer
+                    <br>Greg Niemeyer
                     
                 </p>
             </div>
             <div class="case-details-item">
                 <p><strong>My Role</strong>
                     
-                    <br>Systems Analysis
+                    <br>Initial Prototyping
                     
-                    <br>User Interface Design
+                    <br>Hardware Design
                     
-                    <br>User Research
-                    
-                    <br>Product Design
-                    
-                    <br>Electronics Design
+                    <br>Embedded System Design
                     
                 </p>
             </div>
             <div class="case-details-item">
                 <p><strong>Methods</strong>
                     
-                    <br>Industrial Design
+                    <br>Prototyping
                     
-                    <br>3D CAD
+                    <br>3D Modelling
                     
-                    <br>Electronics Design
+                    <br>EagleCAD
+                    
+                    <br>Embedded System Development
+                    
+                    <br>MaxMSP
                     
                 </p>
             </div>
@@ -92,15 +86,17 @@
             <div class="content-case-study">
                 
 
-<p><img src="../../studies/dril/dsf.png" alt="" /></p>
+<h1 id="strands">Strands</h1>
 
-<h1 id="abstract">Abstract</h1>
+<p>Strands was an extension of the Within 2 art project I collaborated with artist Tarek Atoui. In the exploration of generating different timbres and creating instruments which give physical feedback, I designed the Strand board. Emulating stalks of wheat in a field, you can stroke your hand through the acrylic rods, creating frequencies of different pitch(x direction), volume(y direction), and timbre(magnitude of oscillation created by spring back in the individual stalks).</p>
 
-<p>Woodworking tutorials are commonly used to gain proficiency with power tools. However, these tutorials&rsquo; goals generally aim to assist users with constructing an end product, as opposed to developing their confidence and technique with tools.</p>
+<p><img src="../../studies/strands/stra1.png" alt="" /></p>
 
-<p>We present an ecosystem of smart tools which helps users gain confidence, develop technique, and construct woodworking projects by providing guidance and feedback through skill-building activities and macros of common building tasks. We demonstrate how such techniques are enabled by augmenting common workshop tools (drill/driver, saw) with measurement, state sensing, and visual feedback, and describe the design space of such augmentations. An evaluation with 17 novices shows greater improvement of some tacit skills when using augmented tools compared to unaugmented tools. We also validate the utility and flexibility of a smart tool ecosystem through reflections on a series of author-created design examples. </p>
+<p>This instrument brought to life a concept which is hard to understand as timbre, often described as the color of a sound, is not something which a tangible qualia can be ascribed to.</p>
 
-<p><a href="../../EECS-2016-90.pdf">You can read the full paper here</a></p>
+<p><img src="../../studies/strands/stra2.png" alt="" /></p>
+
+<p>For this a custom PCB was built that would: interface with 16 potentiometers to 6 Analog to Digital Converters, collate this data over SPI, transfer the information to an arduino microcontroller, which would then communicate over serial to MaxMSP to generate sounds.</p>
 
             </div>
         </section>

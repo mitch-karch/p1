@@ -37,6 +37,5 @@ Students and hobbyists build embedded systems that combine sensing, actuation an
 
 </div>
 
-The work will be published in the ACM Library after CHI 2019
-<!-- ### [You can read more about the work published here in the ACM Library](https://dl.acm.org/citation.cfm?id=3242668)
--->
+This work was awarded an Honorable Mention at CHI-2019
+### [You can read more about the work published here in the ACM Library](https://dl.acm.org/citation.cfm?id=3300728)
