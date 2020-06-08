@@ -63,31 +63,26 @@
   </url>
   
   <url>
-    <loc>http://mkar.ch/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://mkar.ch/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mkar.ch/studies/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mkar.ch/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mkar.ch/teaching/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mkar.ch/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mkar.ch/tags/</loc>
   </url>
   
 </urlset>
